@@ -1,0 +1,151 @@
+/* Common Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  header, footer {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    padding: 30px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-info a {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Light Mode */
+  body.light-mode {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+  }
+  
+  header.light-mode, footer.light-mode {
+    background-color: #4b0082; /* Indigo */
+    color: white;
+  }
+  
+  nav ul li a.light-mode {
+    color: #ffd700; /* Golden yellow */
+  }
+  
+  nav ul li a.light-mode:hover {
+    color: #ffff00; /* Bright yellow */
+  }
+  
+  .card.light-mode {
+    background-color: #e6e6fa; /* Lavender */
+  }
+  
+  .card h2.light-mode {
+    color: #4b0082; /* Indigo */
+  }
+  
+  .btn.light-mode {
+    background-color: #4169e1; /* Royal blue */
+    color: white;
+  }
+  
+  .btn.light-mode:hover {
+    background-color: #1e90ff; /* Lighter blue */
+  }
+  
+  .contact-info a.light-mode {
+    color: #4b0082; /* Indigo */
+  }
+  
+  .contact-info a.light-mode:hover {
+    color: #ffd700; /* Golden yellow */
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+  }
+  
+  header.dark-mode, footer.dark-mode {
+    background-color: #333; /* Dark gray */
+    color: #e0e0e0;
+  }
+  
+  nav ul li a.dark-mode {
+    color: #bbb; /* Light gray */
+  }
+  
+  nav ul li a.dark-mode:hover {
+    color: #fff; /* White */
+  }
+  
+  .card.dark-mode {
+    background-color: #333; /* Dark card background */
+  }
+  
+  .card h2.dark-mode {
+    color: #ffd700; /* Golden yellow */
+  }
+  
+  .btn.dark-mode {
+    background-color: #555; /* Dark button */
+    color: #e0e0e0; /* Light text */
+  }
+  
+  .btn.dark-mode:hover {
+    background-color: #777; /* Lighter dark button */
+  }
+  
+  .contact-info a.dark-mode {
+    color: #bbb; /* Light gray */
+  }
+  
+  .contact-info a.dark-mode:hover {
+    color: #fff; /* White */
+  }
+  
